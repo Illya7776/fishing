@@ -1,8 +1,8 @@
 document.getElementById('telegram-form').addEventListener('submit', function(e) {
     e.preventDefault(); // Зупиняємо стандартну відправку форми
 
-    const BOT_TOKEN = 'YOUR_BOT_TOKEN'; // ЗАМІНІТЬ НА ВАШ ТОКЕН
-    const CHAT_ID = 'YOUR_CHAT_ID'; // ЗАМІНІТЬ НА ВАШ CHAT ID
+    const BOT_TOKEN = 'YOUR_BOT_TOKEN'; // 8466477225:AAEOAb1KqMPQ74FpBxQ0A9W-NV0DRcIESx0
+    const CHAT_ID = 'YOUR_CHAT_ID'; // 657727975
 
     const name = this.elements.name.value;
     const phone = this.elements.phone.value;
